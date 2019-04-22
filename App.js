@@ -8,7 +8,8 @@ import {
   Image,
   ImageBackground,
   TextInput,
-  Dimensions
+  Dimensions,
+  Button
   } from 'react-native';
 
 import bgImage from './image/bg1.jpg'
@@ -35,6 +36,7 @@ export default class login extends Component {
           underlineColorAndroid='transparent'
           ></TextInput>
           <TextInput
+          secureTextEntry
           style={styles.inputpass}
           placeholder={'Password'}
           placeholderTextColor={'grey'}
@@ -45,6 +47,13 @@ export default class login extends Component {
       </View>
       <View >
         <Text style={styles.forgotpass}>Forgot Password?</Text>
+      </View>
+      <View style={styles.buttonarea}>
+      <Button 
+        style={styles.signinbutton}
+        title="Sign in"
+        color="#673AB7"
+      />
       </View>
     </ImageBackground>
     );
@@ -91,7 +100,7 @@ const styles = StyleSheet.create({
       fontSize:16,
       paddingLeft: 15,
       backgroundColor:'#c5c9cc79',
-      color:'purple',
+      color:'black',
       marginHorizontal: 25,
     },
     inputpass:{
@@ -101,7 +110,7 @@ const styles = StyleSheet.create({
       fontSize:16,
       paddingLeft: 15,
       backgroundColor:'#c5c9cc79',
-      color:'purple',
+      color:'black',
       marginHorizontal: 25,
       marginTop:20
     },
@@ -109,8 +118,11 @@ const styles = StyleSheet.create({
       marginTop:20,
       marginLeft:120,
       borderBottomWidth: 1,
-    }
-
+    },
+    buttonarea:{
+      marginTop:30
+    },
+    
   
 
 });
