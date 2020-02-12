@@ -1,6 +1,6 @@
 #  Login page
 
-Android login page for backend mobile applictaion using Javascript native framework **React Native**.To run these on your pc,clone it and use the following commands.
+Android login page for backend mobile applictaion using Javascript native framework **React Native**.To run these on your computer,clone the above code and use the following commands.
 ****
 ![enter image description here](https://lh3.googleusercontent.com/QkP7F2rLINn-d0s0icZNXvycGBp4KmaF8xtUO_NGADUplLwcsSq0pomQrbJPQVCqRMeRD5760eeU)
 
